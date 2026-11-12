@@ -1,0 +1,229 @@
+{
+ "componentId": "cd-template",
+ "type": "simple-areachart",
+ "behavior": {
+  "mapValue": {
+   "entry": []
+  }
+ },
+ "componentConfig": [],
+ "preset": "default",
+ "attributeConfig": {
+  "componentAttribute": {
+   "datasourceConfigVersion": 2,
+   "displayConfigVersion": 0,
+   "height": 240,
+   "width": 290,
+   "top": 1200,
+   "left": 330
+  }
+ },
+ "propertyConfig": {
+  "componentProperty": {
+   "dimensions": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     },
+     {
+      "key": "breakdown",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "metrics": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "sort": [],
+   "breakdownConfig": [],
+   "filters": [],
+   "inheritFilters": true,
+   "dsRequiredFilters": [],
+   "areaChartProperty": {
+    "coordinatedColoring": 2,
+    "fontFamily": "Roboto",
+    "showPoints": true,
+    "overrideAxisAuto": true,
+    "seriesColor": [
+     {
+      "color": "#E64A19",
+      "opacity": 1
+     },
+     {
+      "color": "#00b6cb",
+      "themeRef": {
+       "index": 5
+      },
+      "seriesRef": {
+       "index": 1
+      }
+     },
+     {
+      "color": "#f10096",
+      "themeRef": {
+       "index": 6
+      },
+      "seriesRef": {
+       "index": 2
+      }
+     },
+     {
+      "color": "#f66d00",
+      "themeRef": {
+       "index": 7
+      },
+      "seriesRef": {
+       "index": 3
+      }
+     },
+     {
+      "color": "#ffa800",
+      "themeRef": {
+       "index": 8
+      },
+      "seriesRef": {
+       "index": 4
+      }
+     },
+     {
+      "color": "#7cb342",
+      "themeRef": {
+       "index": 9
+      },
+      "seriesRef": {
+       "index": 5
+      }
+     },
+     {
+      "color": "#5e35b1",
+      "seriesRef": {
+       "index": 6
+      }
+     },
+     {
+      "color": "#03a9f4",
+      "seriesRef": {
+       "index": 7
+      }
+     },
+     {
+      "color": "#ec407a",
+      "seriesRef": {
+       "index": 8
+      }
+     },
+     {
+      "color": "#ff7043",
+      "seriesRef": {
+       "index": 9
+      }
+     },
+     {
+      "color": "#737373",
+      "seriesRef": {
+       "index": 10
+      }
+     },
+     {
+      "color": "#f15a60",
+      "seriesRef": {
+       "index": 11
+      }
+     },
+     {
+      "color": "#7ac36a",
+      "seriesRef": {
+       "index": 12
+      }
+     },
+     {
+      "color": "#5a9bd4",
+      "seriesRef": {
+       "index": 13
+      }
+     },
+     {
+      "color": "#faa75a",
+      "seriesRef": {
+       "index": 14
+      }
+     },
+     {
+      "color": "#9e67ab",
+      "seriesRef": {
+       "index": 15
+      }
+     },
+     {
+      "color": "#ce7058",
+      "seriesRef": {
+       "index": 16
+      }
+     },
+     {
+      "color": "#d77fb3",
+      "seriesRef": {
+       "index": 17
+      }
+     },
+     {
+      "color": "#81d4fa",
+      "seriesRef": {
+       "index": 18
+      }
+     },
+     {
+      "color": "#f48fb1",
+      "seriesRef": {
+       "index": 19
+      }
+     }
+    ],
+    "referenceLineProperty": [],
+    "axisAndGridProperty": {
+     "showAxis": false,
+     "gridColor": {
+      "color": "transparent"
+     }
+    },
+    "backgroundAndBorderProperty": {
+     "background": {
+      "color": "transparent"
+     },
+     "border": {
+      "color": "transparent",
+      "opacity": 0,
+      "size": 1,
+      "style": 0,
+      "radius": 10
+     },
+     "boxShadow": false
+    },
+    "legendProperty": {
+     "legendFontFamily": "Roboto"
+    },
+    "referenceBandProperty": [],
+    "chartTitleProperty": {
+     "chartTitleFontFamily": "Roboto"
+    },
+    "labelStyleProperty": {
+     "labelsFontFamily": "Roboto"
+    }
+   },
+   "componentPropertyMigrationStatus": 2
+  }
+ },
+ "conceptDefs": []
+}

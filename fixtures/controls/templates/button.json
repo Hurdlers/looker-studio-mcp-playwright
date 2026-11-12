@@ -1,0 +1,63 @@
+{
+ "componentId": "cd-template",
+ "type": "button",
+ "behavior": {
+  "mapValue": {
+   "entry": []
+  }
+ },
+ "componentConfig": [],
+ "preset": "default",
+ "attributeConfig": {
+  "componentAttribute": {
+   "datasourceConfigVersion": 2,
+   "displayConfigVersion": 0,
+   "height": 50,
+   "width": 200,
+   "top": 510,
+   "left": 350,
+   "flipHorizontal": false,
+   "flipVertical": false
+  }
+ },
+ "propertyConfig": {
+  "componentProperty": {
+   "dimensions": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "row": 5001,
+   "sort": [],
+   "breakdownConfig": [],
+   "filters": [],
+   "inheritFilters": true,
+   "dsRequiredFilters": [],
+   "buttonProperty": {
+    "fontColor": {
+     "color": "#FFFFFF",
+     "opacity": 1
+    },
+    "fontSize": 14,
+    "backgroundAndBorderProperty": {
+     "background": {
+      "color": "#000000",
+      "opacity": 1
+     },
+     "border": {
+      "color": "#000000",
+      "size": 1,
+      "radius": 4
+     }
+    }
+   },
+   "componentPropertyMigrationStatus": 2
+  }
+ },
+ "conceptDefs": []
+}

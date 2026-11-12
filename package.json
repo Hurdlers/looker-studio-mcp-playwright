@@ -1,0 +1,38 @@
+{
+  "name": "looker-studio-mcp-playwright",
+  "version": "0.2.0",
+  "private": true,
+  "description": "MCP server that builds and edits Looker Studio reports through its internal API, driven by Playwright",
+  "type": "module",
+  "bin": {
+    "looker-studio-mcp-playwright": "build/cli.js"
+  },
+  "scripts": {
+    "gen": "node scripts/gen-registry.mjs",
+    "prebuild": "node scripts/gen-registry.mjs",
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "node scripts/gen-registry.mjs && tsc --noEmit",
+    "test": "node scripts/gen-registry.mjs && vitest run",
+    "pretest:live": "node scripts/gen-registry.mjs",
+    "test:live": "vitest run -c vitest.live.config.ts",
+    "test:connector-e2e": "node scripts/connector-e2e.mjs",
+    "test:watch": "vitest",
+    "serve": "node build/cli.js serve",
+    "doctor": "node build/cli.js doctor"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "google-auth-library": "^11.3.2",
+    "playwright-core": "^1.65.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  },
+  "license": "MIT"
+}

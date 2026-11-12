@@ -1,0 +1,577 @@
+{
+ "componentId": "cd-template",
+ "type": "simple-linechart",
+ "behavior": {
+  "mapValue": {
+   "entry": []
+  }
+ },
+ "componentConfig": [],
+ "preset": "default",
+ "attributeConfig": {
+  "componentAttribute": {
+   "datasourceConfigVersion": 2,
+   "displayConfigVersion": 0,
+   "height": 240,
+   "width": 290,
+   "top": 330,
+   "left": 330,
+   "flipHorizontal": false,
+   "flipVertical": false
+  }
+ },
+ "propertyConfig": {
+  "componentProperty": {
+   "dimensions": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     },
+     {
+      "key": "breakdown",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "metrics": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "sort": [],
+   "breakdownConfig": [],
+   "filters": [],
+   "inheritFilters": true,
+   "dsRequiredFilters": [],
+   "lineChartProperty": {
+    "seriesProperty": [
+     {
+      "seriesColor": {
+       "color": "#000000",
+       "opacity": 1
+      },
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": true,
+      "seriesShowDataLabel": true,
+      "seriesAxisIndex": 0,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#B7B7B7",
+       "opacity": 1
+      },
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#0049ff",
+       "opacity": 1
+      },
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#0049ff",
+       "opacity": 1
+      },
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#E64A19",
+       "opacity": 1
+      },
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#E64A19",
+       "opacity": 1
+      },
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesType": 0,
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "trendlineProperty": {
+       "trendlineType": 0,
+       "trendlineWeight": 2,
+       "trendlineStyle": 2,
+       "trendlineWindowSize": 2
+      },
+      "seriesLineStyle": 2,
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "referenceLineProperty": [],
+    "axisAndGridProperty": {
+     "gridColor": {
+      "color": "transparent"
+     }
+    },
+    "intervalProperty": [],
+    "referenceBandProperty": []
+   },
+   "componentPropertyMigrationStatus": 2
+  }
+ },
+ "conceptDefs": []
+}

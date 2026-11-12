@@ -1,0 +1,590 @@
+{
+ "componentId": "cd-template",
+ "type": "simple-combochart",
+ "behavior": {
+  "mapValue": {
+   "entry": [
+    {
+     "key": "onPreSort",
+     "value": {
+      "arrayValue": {
+       "value": [
+        {
+         "mapValue": {
+          "entry": [
+           {
+            "key": "action",
+            "value": {
+             "strValue": "presort"
+            }
+           },
+           {
+            "key": "isControl",
+            "value": {
+             "boolValue": false
+            }
+           },
+           {
+            "key": "init",
+            "value": {
+             "mapValue": {
+              "entry": [
+               {
+                "key": "sortOptions",
+                "value": {
+                 "mapValue": {
+                  "entry": [
+                   {
+                    "key": "sortData",
+                    "value": {
+                     "arrayValue": {
+                      "value": []
+                     }
+                    }
+                   },
+                   {
+                    "key": "isNewSortConfig",
+                    "value": {
+                     "boolValue": true
+                    }
+                   }
+                  ]
+                 }
+                }
+               }
+              ]
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ },
+ "componentConfig": [],
+ "preset": "default",
+ "attributeConfig": {
+  "componentAttribute": {
+   "datasourceConfigVersion": 2,
+   "displayConfigVersion": 0,
+   "height": 240,
+   "width": 290,
+   "top": 1200,
+   "left": 640,
+   "flipHorizontal": false,
+   "flipVertical": false
+  }
+ },
+ "propertyConfig": {
+  "componentProperty": {
+   "dimensions": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "metrics": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "row": 500,
+   "sort": [],
+   "breakdownConfig": [],
+   "filters": [],
+   "inheritFilters": true,
+   "dsRequiredFilters": [],
+   "comboChartProperty": {
+    "overrideAxisAuto": true,
+    "seriesProperty": [
+     {
+      "seriesColor": {
+       "color": "#000000",
+       "opacity": 1
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesAxisIndex": 0,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#6a380e",
+       "opacity": 1
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesAxisIndex": 1,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#f10096",
+       "themeRef": {
+        "index": 6
+       },
+       "seriesRef": {
+        "index": 2
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#f66d00",
+       "themeRef": {
+        "index": 7
+       },
+       "seriesRef": {
+        "index": 3
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#ffa800",
+       "themeRef": {
+        "index": 8
+       },
+       "seriesRef": {
+        "index": 4
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#7cb342",
+       "themeRef": {
+        "index": 9
+       },
+       "seriesRef": {
+        "index": 5
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#5e35b1",
+       "seriesRef": {
+        "index": 6
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#03a9f4",
+       "seriesRef": {
+        "index": 7
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#ec407a",
+       "seriesRef": {
+        "index": 8
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#ff7043",
+       "seriesRef": {
+        "index": 9
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#737373",
+       "seriesRef": {
+        "index": 10
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#f15a60",
+       "seriesRef": {
+        "index": 11
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#7ac36a",
+       "seriesRef": {
+        "index": 12
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#5a9bd4",
+       "seriesRef": {
+        "index": 13
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#faa75a",
+       "seriesRef": {
+        "index": 14
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#9e67ab",
+       "seriesRef": {
+        "index": 15
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#ce7058",
+       "seriesRef": {
+        "index": 16
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#d77fb3",
+       "seriesRef": {
+        "index": 17
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#81d4fa",
+       "seriesRef": {
+        "index": 18
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     },
+     {
+      "seriesColor": {
+       "color": "#f48fb1",
+       "seriesRef": {
+        "index": 19
+       }
+      },
+      "seriesCumulative": false,
+      "seriesShowPoints": false,
+      "seriesShowDataLabel": false,
+      "seriesLineStyle": 2,
+      "seriesFillColor": {
+       "color": "#FFFFFF"
+      },
+      "seriesStepped": false,
+      "labelStyleProperty": {
+       "labelsBackgroundColor": {
+        "color": "transparent"
+       },
+       "labelsOpacity": 1
+      }
+     }
+    ],
+    "referenceLineProperty": [],
+    "axisAndGridProperty": {
+     "gridColor": {
+      "color": "transparent"
+     }
+    },
+    "legendProperty": {
+     "legendAlignment": 1
+    },
+    "chartDisplayProperty": {
+     "chartAreaHeight": 140
+    },
+    "customBarSpacingProperty": {
+     "barWidth": 100,
+     "groupBarWidth": 50
+    },
+    "barBorderColor": {
+     "color": "transparent"
+    },
+    "referenceBandProperty": []
+   },
+   "componentPropertyMigrationStatus": 2
+  }
+ },
+ "conceptDefs": []
+}

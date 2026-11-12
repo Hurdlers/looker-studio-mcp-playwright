@@ -1,0 +1,95 @@
+{
+  "componentId": "cd-template",
+  "type": "simple-areachart",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "horizontal",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 260,
+      "width": 380,
+      "top": 0,
+      "left": 0
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "dimensions": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "breakdown",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "areaChartProperty": {
+        "fontFamily": "Roboto",
+        "showPoints": true,
+        "showStack": false,
+        "overrideAxisAuto": true,
+        "seriesColor": [],
+        "referenceLineProperty": [],
+        "axisAndGridProperty": {
+          "showAxis": false,
+          "gridColor": {
+            "color": "transparent"
+          }
+        },
+        "backgroundAndBorderProperty": {
+          "background": {
+            "color": "transparent"
+          },
+          "border": {
+            "color": "transparent",
+            "opacity": 0,
+            "size": 1,
+            "style": 0,
+            "radius": 10
+          },
+          "boxShadow": false
+        },
+        "legendProperty": {
+          "legendFontFamily": "Roboto"
+        },
+        "referenceBandProperty": [],
+        "chartTitleProperty": {
+          "chartTitleFontFamily": "Roboto"
+        },
+        "labelStyleProperty": {
+          "labelsFontFamily": "Roboto"
+        }
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

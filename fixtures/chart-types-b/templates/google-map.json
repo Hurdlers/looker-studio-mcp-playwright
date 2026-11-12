@@ -1,0 +1,90 @@
+{
+  "componentId": "cd-template",
+  "type": "google-map",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "default",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 300,
+      "width": 380,
+      "top": 20,
+      "left": 405,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "dimensions": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "bubble_color",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "tooltip",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "connect_with",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "labeledConcepts": [
+          {
+            "key": "size",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "bubble_color",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "geography",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "additional_layer_metric",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "row": 3500,
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": []
+    }
+  },
+  "conceptDefs": []
+}

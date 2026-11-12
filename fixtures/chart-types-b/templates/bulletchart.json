@@ -1,0 +1,42 @@
+{
+  "componentId": "cd-template",
+  "type": "bulletchart",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "default",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 260,
+      "width": 380,
+      "top": 0,
+      "left": 0
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "metrics": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

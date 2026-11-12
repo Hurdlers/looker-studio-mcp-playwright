@@ -1,0 +1,81 @@
+{
+  "componentId": "cd-template",
+  "type": "dimension-control",
+  "behavior": {
+    "mapValue": {
+      "entry": [
+        {
+          "key": "onSelect",
+          "value": {
+            "arrayValue": {
+              "value": [
+                {
+                  "mapValue": {
+                    "entry": [
+                      {
+                        "key": "action",
+                        "value": {
+                          "strValue": "dimension-control"
+                        }
+                      },
+                      {
+                        "key": "isControl",
+                        "value": {
+                          "boolValue": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "componentConfig": [],
+  "preset": "default",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 40,
+      "width": 300,
+      "top": 0,
+      "left": 0,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "dimensions": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "row": 5001,
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "dimensionControlProperty": {
+        "labelFontSize": 14,
+        "paddingTop": 8,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "centerVertical": true,
+        "lineHeight": 16
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

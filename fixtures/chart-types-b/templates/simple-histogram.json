@@ -1,0 +1,58 @@
+{
+  "componentId": "cd-template",
+  "type": "simple-histogram",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "default",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 260,
+      "width": 380,
+      "top": 0,
+      "left": 0
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "dimensions": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "breakdown",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

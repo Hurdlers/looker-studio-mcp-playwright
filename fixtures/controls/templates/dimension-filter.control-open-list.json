@@ -1,0 +1,95 @@
+{
+  "componentId": "cd-template",
+  "type": "dimension-filter",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "control-open-list",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 300,
+      "width": 300,
+      "top": 0,
+      "left": 0,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "dimensions": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "row": 5001,
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "dimensionFilterProperty": {
+        "controlMode": 0,
+        "singleSelect": false,
+        "showSearch": true,
+        "showMetricsValue": true,
+        "compactNumbers": true,
+        "allowSelectAll": true,
+        "showFilterCondition": true,
+        "defaultConditionType": 1,
+        "isAutoInputBoxWidth": true,
+        "inputBoxWidth": 80,
+        "sliderMode": 0,
+        "sliderShowTextBoxes": true,
+        "sliderEnableSnapping": false,
+        "sliderShowTicks": false,
+        "sliderTickSize": 1,
+        "defaultControlValueInputType": "static",
+        "expandable": false,
+        "labelFontSize": 14,
+        "itemFontSize": 12,
+        "labelPosition": 0,
+        "dividerColor": {
+          "color": "transparent",
+          "opacity": 1
+        },
+        "backgroundAndBorderProperty": {
+          "border": {
+            "color": "transparent",
+            "opacity": 0,
+            "size": 0,
+            "style": 0,
+            "radius": 10
+          }
+        },
+        "paddingTop": 8,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "centerVertical": true,
+        "lineHeight": 16
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

@@ -1,0 +1,121 @@
+{
+ "componentId": "cd-template",
+ "type": "simple-daterangepicker",
+ "behavior": {
+  "mapValue": {
+   "entry": [
+    {
+     "key": "onSelect",
+     "value": {
+      "arrayValue": {
+       "value": [
+        {
+         "mapValue": {
+          "entry": [
+           {
+            "key": "action",
+            "value": {
+             "strValue": "lego-change-date-range"
+            }
+           },
+           {
+            "key": "isControl",
+            "value": {
+             "boolValue": true
+            }
+           },
+           {
+            "key": "init",
+            "value": {
+             "mapValue": {
+              "entry": [
+               {
+                "key": "dateRange",
+                "value": {
+                 "mapValue": {
+                  "entry": [
+                   {
+                    "key": "startOffsetUnit",
+                    "value": {
+                     "int64Value": "3"
+                    }
+                   },
+                   {
+                    "key": "startOffset",
+                    "value": {
+                     "int64Value": "7"
+                    }
+                   },
+                   {
+                    "key": "endOffsetUnit",
+                    "value": {
+                     "int64Value": "3"
+                    }
+                   },
+                   {
+                    "key": "endOffset",
+                    "value": {
+                     "int64Value": "1"
+                    }
+                   }
+                  ]
+                 }
+                }
+               }
+              ]
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ },
+ "componentConfig": [],
+ "preset": "default",
+ "attributeConfig": {
+  "componentAttribute": {
+   "datasourceConfigVersion": 2,
+   "displayConfigVersion": 1,
+   "height": 50,
+   "width": 300,
+   "top": 510,
+   "left": 20,
+   "flipHorizontal": false,
+   "flipVertical": false
+  }
+ },
+ "propertyConfig": {
+  "componentProperty": {
+   "sort": [],
+   "breakdownConfig": [],
+   "filters": [],
+   "inheritFilters": true,
+   "dsRequiredFilters": [],
+   "dateRangePickerProperty": {
+    "fontSize": 14,
+    "lineHeight": 16,
+    "paddingTop": 8,
+    "paddingLeft": 24,
+    "paddingRight": 24,
+    "centerVertical": true,
+    "backgroundAndBorderProperty": {
+     "border": {
+      "color": "transparent",
+      "opacity": 0,
+      "size": 0,
+      "style": 0,
+      "radius": 10
+     }
+    }
+   },
+   "componentPropertyMigrationStatus": 2
+  }
+ },
+ "conceptDefs": []
+}

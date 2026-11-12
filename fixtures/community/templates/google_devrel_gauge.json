@@ -1,0 +1,53 @@
+{
+  "keyConfig": {
+    "display": {
+      "keyConfig": []
+    }
+  },
+  "componentId": "cd-template",
+  "type": "google://devrel/gauge",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "default",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 300,
+      "width": 400,
+      "top": 20,
+      "left": 20,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "metrics": {
+        "labeledConcepts": [
+          {
+            "key": "0",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "thirdPartyVizProperty": {
+        "keyConfig": [],
+        "isMigrated": true
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

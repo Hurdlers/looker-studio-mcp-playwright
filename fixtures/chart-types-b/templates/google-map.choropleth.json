@@ -1,0 +1,126 @@
+{
+ "componentId": "cd-template",
+ "type": "google-map",
+ "behavior": {
+  "mapValue": {
+   "entry": []
+  }
+ },
+ "componentConfig": [],
+ "preset": "choropleth",
+ "attributeConfig": {
+  "componentAttribute": {
+   "datasourceConfigVersion": 2,
+   "displayConfigVersion": 0,
+   "height": 300,
+   "width": 420,
+   "top": 40,
+   "left": 20,
+   "flipHorizontal": false,
+   "flipVertical": false
+  }
+ },
+ "propertyConfig": {
+  "componentProperty": {
+   "dimensions": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     },
+     {
+      "key": "bubble_color",
+      "value": {
+       "conceptNames": []
+      }
+     },
+     {
+      "key": "tooltip",
+      "value": {
+       "conceptNames": []
+      }
+     },
+     {
+      "key": "connect_with",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "metrics": {
+    "labeledConcepts": [
+     {
+      "key": "size",
+      "value": {
+       "conceptNames": []
+      }
+     },
+     {
+      "key": "bubble_color",
+      "value": {
+       "conceptNames": []
+      }
+     },
+     {
+      "key": "geography",
+      "value": {
+       "conceptNames": []
+      }
+     },
+     {
+      "key": "additional_layer_metric",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "row": 3500,
+   "sort": [],
+   "breakdownConfig": [],
+   "filters": [],
+   "inheritFilters": true,
+   "dsRequiredFilters": [],
+   "googleMapProperty": {
+    "geoConfig": {
+     "geoVertices": 100000,
+     "geoBubbles": 100000,
+     "outputGeoType": 0
+    },
+    "legendSettings": {
+     "colorLegend": {
+      "position": 1
+     },
+     "sizeLegend": {
+      "position": 1
+     }
+    },
+    "showStreetViewControl": false,
+    "sizeMultiplier": 0.75,
+    "minColor": {
+     "color": "#D9D9D9",
+     "opacity": 1
+    },
+    "midColor": {
+     "color": "#FFECB3",
+     "opacity": 1
+    },
+    "maxColor": {
+     "color": "#0072f0",
+     "opacity": 1,
+     "themeRef": {
+      "index": 4
+     }
+    },
+    "minColorBoundToTheme": false,
+    "heatmapOpacity": 0.9,
+    "layers": []
+   },
+   "componentPropertyMigrationStatus": 2
+  }
+ },
+ "conceptDefs": []
+}

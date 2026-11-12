@@ -1,0 +1,76 @@
+{
+  "componentId": "cd-template",
+  "type": "simple-timeline",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "default",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 300,
+      "width": 380,
+      "top": 660,
+      "left": 800,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "dimensions": {
+        "labeledConcepts": [
+          {
+            "key": "rowLabel",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "barLabel",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "startTime",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "endTime",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "duration",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "tooltip",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "labeledConcepts": []
+      },
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": []
+    }
+  },
+  "conceptDefs": []
+}

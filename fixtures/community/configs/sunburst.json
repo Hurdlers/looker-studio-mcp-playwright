@@ -1,0 +1,340 @@
+{
+  "data": [
+    {
+      "id": "data",
+      "label": "Data Fields",
+      "elements": [
+        {
+          "id": "dimension",
+          "label": "Dimensions",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 8
+          }
+        },
+        {
+          "id": "metric",
+          "label": "Metric",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "sort",
+      "label": "Sorting",
+      "elements": [
+        {
+          "id": "sortBy",
+          "label": "Sort By",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "metric",
+          "options": [
+            {
+              "label": "metric",
+              "value": "metric"
+            },
+            {
+              "label": "alphabetically",
+              "value": "alphabetically"
+            }
+          ]
+        },
+        {
+          "id": "sortDirection",
+          "label": "Direction",
+          "type": "SELECT_RADIO",
+          "defaultValue": "descending",
+          "options": [
+            {
+              "label": "Descending",
+              "value": "descending"
+            },
+            {
+              "label": "Ascending",
+              "value": "ascending"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legend",
+      "label": "Legend",
+      "elements": [
+        {
+          "id": "isLegend",
+          "label": "Show Legend",
+          "type": "CHECKBOX",
+          "defaultValue": false
+        },
+        {
+          "id": "fontColor",
+          "label": "Font Color",
+          "type": "FONT_COLOR",
+          "defaultValue": {
+            "color": "#000000",
+            "opacity": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "labels",
+      "label": "Number Formatting & Labels",
+      "elements": [
+        {
+          "id": "compactNumbers",
+          "label": "Use Compact Numbers",
+          "type": "CHECKBOX",
+          "defaultValue": false
+        },
+        {
+          "id": "metricDecimalPrecision",
+          "label": "Decimal Precision for Metric",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "0",
+          "options": [
+            {
+              "label": "0",
+              "value": "0"
+            },
+            {
+              "label": "1",
+              "value": "1"
+            },
+            {
+              "label": "2",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "id": "decimalPrecision",
+          "label": "Decimal Precision for Percentages",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "0",
+          "options": [
+            {
+              "label": "0",
+              "value": "0"
+            },
+            {
+              "label": "1",
+              "value": "1"
+            },
+            {
+              "label": "2",
+              "value": "2"
+            }
+          ]
+        },
+        {
+          "id": "fontFamily",
+          "label": "Font Family",
+          "type": "FONT_FAMILY",
+          "custom": {
+            "defaultTheme": {
+              "obj": "themeFontFamily",
+              "index": null
+            }
+          }
+        },
+        {
+          "id": "fontSize",
+          "label": "Base Font Size (min: 8)",
+          "type": "INTERVAL",
+          "defaultValue": 0
+        },
+        {
+          "id": "TTfontColour",
+          "label": "Font Colour",
+          "type": "FILL_COLOR",
+          "custom": {
+            "defaultTheme": {
+              "obj": "themeFontColor",
+              "index": null
+            }
+          }
+        },
+        {
+          "id": "TTbackgroundColour",
+          "label": "Background Colour",
+          "type": "FILL_COLOR",
+          "custom": {
+            "defaultTheme": {
+              "obj": "themeFillColor",
+              "index": null
+            }
+          }
+        },
+        {
+          "id": "lineColour",
+          "label": "Line Colour",
+          "type": "FILL_COLOR",
+          "custom": {
+            "defaultTheme": {
+              "obj": "themeGridColor",
+              "index": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "colors",
+      "label": "Colour Scheme",
+      "elements": [
+        {
+          "id": "arcColors",
+          "label": "Choose a Color Scheme",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "interpolateViridis",
+          "options": [
+            {
+              "label": "Use Custom Colours Defined Below",
+              "value": "custom"
+            },
+            {
+              "label": "Viridis 'perceptually-uniform' Colors",
+              "value": "interpolateViridis"
+            },
+            {
+              "label": "Rainbow Colors",
+              "value": "interpolateRainbow"
+            },
+            {
+              "label": "Cubehelix Colors",
+              "value": "interpolateCubehelixDefault"
+            },
+            {
+              "label": "Inferno Colors",
+              "value": "interpolateInferno"
+            },
+            {
+              "label": "Plasma Colors",
+              "value": "interpolatePlasma"
+            },
+            {
+              "label": "Warm Colors",
+              "value": "interpolateWarm"
+            },
+            {
+              "label": "Cool Colors",
+              "value": "interpolateCool"
+            },
+            {
+              "label": "Spectral",
+              "value": "interpolateSpectral"
+            },
+            {
+              "label": "Grey",
+              "value": "interpolateGreys"
+            },
+            {
+              "label": "Orange",
+              "value": "interpolateOranges"
+            }
+          ]
+        },
+        {
+          "id": "colorSchemeReversed",
+          "label": "Reverse Color Scheme",
+          "type": "CHECKBOX",
+          "defaultValue": false
+        },
+        {
+          "id": "startColour",
+          "label": "Start Colour",
+          "type": "FILL_COLOR",
+          "custom": {
+            "defaultTheme": {
+              "obj": "themeSeriesColor",
+              "index": 0
+            }
+          }
+        },
+        {
+          "id": "midColour",
+          "label": "Optional Midpoint Colour",
+          "type": "FILL_COLOR"
+        },
+        {
+          "id": "endColour",
+          "label": "End Colour",
+          "type": "FILL_COLOR",
+          "custom": {
+            "defaultTheme": {
+              "obj": "themeSeriesColor",
+              "index": 2
+            }
+          }
+        },
+        {
+          "id": "fillOpacity",
+          "label": "Fill Opacity (clickable Segments)",
+          "defaultValue": "0.6",
+          "type": "OPACITY"
+        },
+        {
+          "id": "colourDrillDown",
+          "label": "Apply Colours to all Levels",
+          "type": "CHECKBOX",
+          "defaultValue": false
+        }
+      ]
+    },
+    {
+      "id": "language",
+      "label": "Language Support (Formatting)",
+      "elements": [
+        {
+          "id": "forcedLanguage",
+          "label": "Force Formatting or Use Browser Language",
+          "type": "SELECT_SINGLE",
+          "defaultValue": "default",
+          "options": [
+            {
+              "label": "Browser Detection",
+              "value": "default"
+            },
+            {
+              "label": "English",
+              "value": "en"
+            },
+            {
+              "label": "French",
+              "value": "fr"
+            },
+            {
+              "label": "German",
+              "value": "de"
+            },
+            {
+              "label": "Spanish",
+              "value": "es"
+            },
+            {
+              "label": "Portuguese",
+              "value": "pt"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "interactions": [
+    {
+      "id": "sunburstFilter",
+      "supportedActions": [
+        "FILTER"
+      ]
+    }
+  ]
+}

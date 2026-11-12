@@ -1,0 +1,61 @@
+{
+ "componentId": "cd-template",
+ "type": "simple-piechart",
+ "behavior": {
+  "mapValue": {
+   "entry": []
+  }
+ },
+ "componentConfig": [],
+ "preset": "default",
+ "attributeConfig": {
+  "componentAttribute": {
+   "datasourceConfigVersion": 2,
+   "displayConfigVersion": 0,
+   "height": 240,
+   "width": 290,
+   "top": 910,
+   "left": 330,
+   "flipHorizontal": false,
+   "flipVertical": false
+  }
+ },
+ "propertyConfig": {
+  "componentProperty": {
+   "dimensions": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "metrics": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "row": 10,
+   "sort": [],
+   "breakdownConfig": [],
+   "filters": [],
+   "inheritFilters": true,
+   "dsRequiredFilters": [],
+   "pieChartProperty": {
+    "legendProperty": {
+     "legendPosition": 1
+    },
+    "sliceColor": []
+   },
+   "componentPropertyMigrationStatus": 2
+  }
+ },
+ "conceptDefs": []
+}

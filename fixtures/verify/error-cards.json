@@ -1,0 +1,330 @@
+{
+  "category": {
+    "1": {
+      "title": "No dataset access",
+      "description": "Insufficient permissions to the underlying data set."
+    },
+    "2": {
+      "title": "User Configuration Error",
+      "description": "This data source was improperly configured."
+    },
+    "4": {
+      "title": "Quota Error",
+      "description": "This data set has been accessed too many times."
+    },
+    "5": {
+      "title": "Data Set Configuration Error",
+      "description": "Looker Studio cannot connect to your data set."
+    },
+    "7": {
+      "title": "Consent required",
+      "description": "This component requires your consent to load data."
+    },
+    "12": {
+      "title": "Error Details",
+      "description": "Failed to process content due to an encryption issue. Please contact your administrator."
+    }
+  },
+  "reason": {
+    "6": {
+      "title": "Credential Settings Error",
+      "description": "Credential settings are incorrect. An editor will need to edit and reconnect the data source to resolve this."
+    },
+    "8": {
+      "title": "Timed out"
+    },
+    "9": {
+      "title": "Invalid configuration",
+      "description": "Invalid combination of metrics and dimensions"
+    },
+    "10": {
+      "title": "Failed To Get Data.",
+      "description": "The data source needs to be added to the report."
+    },
+    "11": {
+      "title": "System Error",
+      "description": "Sorry, we encountered an error and were unable to complete your request."
+    },
+    "40": {
+      "title": "Display Data Truncated",
+      "description": "This data source returns too much data."
+    },
+    "89": {
+      "title": "Feature Not Supported",
+      "description": "This chart utilizes a data source type that is not supported in this view mode."
+    },
+    "94": {
+      "title": "Authorization Required",
+      "description": "A connector requires your authorization before Looker Studio can display this component."
+    },
+    "95": {
+      "title": "Authorization Required",
+      "description": "A connector requires your authorization before Looker Studio can display this component."
+    },
+    "96": {
+      "title": "Service Control Failure",
+      "description": "This component uses a data source that is in a project which does not have the Looker Studio API enabled."
+    },
+    "97": {
+      "title": "Service Control Failure",
+      "description": "Organization VPC Service Controls prohibit access to a data source used by this component."
+    },
+    "98": {
+      "title": "Too Many Rows",
+      "description": "Due to the number of rows, the chart cannot be rendered."
+    },
+    "100": {
+      "title": "Service Control Failure",
+      "description": "An unknown Service Control failure occurred. Please try again later."
+    },
+    "115": {
+      "title": "Google Maps Disabled",
+      "description": "This report has exceeded the maximum number of map views for the current time period."
+    },
+    "118": {
+      "title": "Visualization removed",
+      "description": "We can't display the community visualization because it was removed from the report."
+    },
+    "124": {
+      "title": "Authorization Required",
+      "description": "Consent to render this community visualization has not been provided"
+    },
+    "125": {
+      "title": "Authorization Required",
+      "description": "The community visualization has been modified and requires updated consent in order to be rendered"
+    },
+    "126": {
+      "title": "Visualization removed",
+      "description": "We can't display the community visualization because it was removed from the report."
+    },
+    "127": {
+      "title": "User Configuration Error",
+      "description": "Multiselect parameters cannot be used in a calculated field or filter."
+    },
+    "128": {
+      "title": "Invalid data response",
+      "description": "The data request for this component returned multiple rows for the Summary row or Percent of total calculation."
+    },
+    "129": {
+      "title": "Service account error"
+    },
+    "131": {
+      "title": "Configuration",
+      "description": "Date comparisons using a blended data source containing a single table is not currently supported."
+    },
+    "132": {
+      "title": "Configuration",
+      "description": "This chart has too many filter conditions applied."
+    },
+    "143": {
+      "title": "Authorization Required",
+      "description": "Unable to connect to Looker. Please link your account again to access the Looker data."
+    },
+    "148": {
+      "description": "Copying is disabled for this report. If you have access to the report, you can enable copying from the Share dialog."
+    },
+    "157": {
+      "title": "Data too large",
+      "description": "This chart requested too much data. Try adding a filter or use dimensions with fewer rows."
+    },
+    "162": {
+      "title": "Authorization Required",
+      "description": "A connector requires your authorization before Looker Studio can display this component."
+    },
+    "163": {
+      "title": "Authorization Required",
+      "description": "A connector requires your authorization before Looker Studio can display this component."
+    },
+    "165": {
+      "title": "Unable to query Looker",
+      "description": "Data export and email delivery is not yet supported for Looker data sources"
+    },
+    "166": {
+      "title": "Invalid Field Configuration",
+      "description": "Invalid field combination"
+    },
+    "167": {
+      "title": "Looker instance has encountered an error."
+    },
+    "176": {
+      "title": "Duplicate field name error.",
+      "description": "Duplicate field name error."
+    },
+    "177": {
+      "description": "Google Surveys data is no longer available"
+    },
+    "183": {
+      "title": "Invalid field name error",
+      "description": "Invalid field name error"
+    },
+    "187": {
+      "description": "Metric results might not be accurate"
+    },
+    "193": {
+      "title": "Native functions are disabled",
+      "description": "Native functions are disabled"
+    },
+    "194": {
+      "title": "Community Visualization Disabled",
+      "description": "Your administrator has restricted the use of this visualization."
+    },
+    "204": {
+      "title": "Authorization Required",
+      "description": "Looker requires your authorization to access data from this connection."
+    },
+    "207": {
+      "title": "Couldn't load chart",
+      "description": "Check your network connection and try again"
+    },
+    "213": {
+      "title": "Authorization Required",
+      "description": "Unable to connect to Looker. Please link your account to access the Looker data."
+    },
+    "217": {
+      "title": "Invalid configuration",
+      "description": "Comparison metrics not supported with \"Group others\""
+    },
+    "219": {
+      "title": "Couldn't complete the report query",
+      "description": "Looker Studio couldn't get data from the Explore. Reach out to your admin for more information."
+    },
+    "222": {
+      "description": "Looker Studio cannot add your custom column."
+    },
+    "224": {
+      "description": "Geocoding is not supported for regional endpoints."
+    },
+    "228": {
+      "title": "Query streaming limit exceeded",
+      "description": "The query result set is too large for Looker to stream incrementally"
+    },
+    "233": {
+      "title": "Couldn't complete the report query",
+      "description": "Looker Studio couldn't get data from the Explore. Reach out to your admin for more information."
+    },
+    "238": {
+      "title": "LookML model configuration error",
+      "description": "Couldn't run query because a specified LookML model or view either doesn't exist or isn't correctly configured"
+    },
+    "239": {
+      "title": "Query timed out",
+      "description": "Query is taking longer than expected. Try again with fewer rows."
+    },
+    "240": {
+      "title": "Invalid filter expression",
+      "description": "The syntax, logic, or field references within a filter expression are incorrect."
+    },
+    "241": {
+      "title": "No dataset access",
+      "description": "Insufficient permissions to the underlying data set."
+    },
+    "244": {
+      "title": "Couldn't complete the report query",
+      "description": "A filter is not allowed by the LookML model configuration."
+    },
+    "245": {
+      "title": "Database connection timed out",
+      "description": "The connection to the underlying database within Looker timed out before completing the query"
+    },
+    "247": {
+      "title": "Error Details",
+      "description": "The encryption key is currently unavailable (it may be disabled, destroyed, or unreachable). Please check your key status in Google Cloud Console."
+    },
+    "248": {
+      "title": "Error Details",
+      "description": "The service account does not have permission to access the encryption key. Please verify that the key has the correct IAM policy."
+    },
+    "249": {
+      "title": "Error Details",
+      "description": "The encryption key or version could not be found. Please verify the key resource path."
+    },
+    "252": {
+      "title": "Error Details",
+      "description": "An internal error occurred while processing the encryption key. Please try again later."
+    },
+    "253": {
+      "title": "Authorization Required",
+      "description": "Consent to render this community visualization using a viewer's credential datasource has not been provided"
+    },
+    "254": {
+      "title": "Authorization Required",
+      "description": "The community visualization has been modified and requires updated consent in order to be rendered"
+    },
+    "262": {
+      "title": "User authentication error",
+      "description": "An authentication error occurred while loading the community visualization."
+    },
+    "264": {
+      "title": "Incompatible aggregation",
+      "description": "This chart cannot process the selected metric while using a bucketed dimension."
+    },
+    "265": {
+      "title": "Chart configuration incomplete",
+      "description": "Invalid/Missing dimensions, metrics, or filters."
+    },
+    "266": {
+      "title": "Invalid dimension",
+      "description": "This chart has an invalid dimension"
+    },
+    "267": {
+      "title": "Invalid metric",
+      "description": "This chart has an invalid metric"
+    },
+    "268": {
+      "title": "Invalid sort",
+      "description": "This chart has an invalid sort configuration"
+    },
+    "269": {
+      "title": "Invalid filter",
+      "description": "This chart has an invalid filter"
+    },
+    "278": {
+      "title": "Error Details",
+      "description": "The external key manager is unreachable. Try again. If the problem persists, please contact your GCP organization administrator."
+    },
+    "279": {
+      "title": "Error Details",
+      "description": "The encryption key is disabled. Please enable the primary key version in the GCP Console."
+    },
+    "280": {
+      "title": "Error Details",
+      "description": "The encryption key is scheduled to be destroyed. Please restore and enable the primary key version in the GCP Console."
+    },
+    "281": {
+      "title": "Error Details",
+      "description": "The encryption key has been permanently destroyed. Data encrypted with this key is no longer accessible."
+    },
+    "282": {
+      "title": "Error Details",
+      "description": "Billing has been disabled for the GCP project associated with the encryption key. Please re-enable billing in the GCP Console."
+    },
+    "283": {
+      "title": "Error Details",
+      "description": "The encryption key has no primary version selected. Please select or create a primary version in the GCP Console."
+    },
+    "284": {
+      "title": "Data Set Configuration Error",
+      "description": "Looker Studio cannot connect to your data set."
+    },
+    "287": {
+      "title": "Data Set Configuration Error",
+      "description": "Looker Studio cannot connect to your data set."
+    },
+    "289": {
+      "title": "Quota Error",
+      "description": "This data set has been accessed too many times."
+    },
+    "290": {
+      "title": "Data Set Configuration Error",
+      "description": "Looker Studio cannot connect to your data set."
+    },
+    "293": {
+      "title": "Data Set Configuration Error",
+      "description": "Looker Studio cannot connect to your data set."
+    }
+  },
+  "fallback": {
+    "title": "System Error",
+    "description": "Looker Studio has encountered a system error."
+  }
+}

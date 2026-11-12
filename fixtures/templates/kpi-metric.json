@@ -1,0 +1,99 @@
+{
+  "componentId": "cd-template",
+  "type": "kpi-metric",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "default",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 88,
+      "width": 153,
+      "top": 1130,
+      "left": 50,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "dimensions": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "sparkline",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "target",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "kpiMetricProperty": {
+        "fontSize": 18,
+        "compactNumbers": false,
+        "primaryCompactNumbers": false,
+        "comparisonCompactNumbers": false,
+        "hideMetric": false,
+        "hideCompare": false,
+        "absDeltaChange": false,
+        "missingDataStyle": 0,
+        "metricAlignment": 2,
+        "textAlignment": 2,
+        "compareAlignment": 2,
+        "lineHeight": 32,
+        "paddingTop": 8,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "targetType": 1,
+        "showProgress": false,
+        "progressMin": 0,
+        "compareLabel": "",
+        "progressVizType": 1,
+        "showTargetLineLabel": false,
+        "subvizSparklineProperty": {
+          "sparklineFill": false,
+          "smoothCurve": false,
+          "sparklineMissingDataDisplayType": 2
+        },
+        "chartTitleProperty": {
+          "chartTitlePosition": 2,
+          "chartTitleTextAlignment": 1,
+          "chartTitleFontSize": 18
+        }
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

@@ -1,0 +1,94 @@
+{
+  "componentId": "cd-template",
+  "type": "dataset-picker",
+  "behavior": {
+    "mapValue": {
+      "entry": [
+        {
+          "key": "onSelect",
+          "value": {
+            "arrayValue": {
+              "value": [
+                {
+                  "mapValue": {
+                    "entry": [
+                      {
+                        "key": "action",
+                        "value": {
+                          "strValue": "lego-datasource-parameter-changed"
+                        }
+                      },
+                      {
+                        "key": "isControl",
+                        "value": {
+                          "boolValue": true
+                        }
+                      },
+                      {
+                        "key": "init",
+                        "value": {
+                          "mapValue": {
+                            "entry": [
+                              {
+                                "key": "displayEditorData",
+                                "value": {
+                                  "boolValue": true
+                                }
+                              },
+                              {
+                                "key": "connectorType",
+                                "value": {
+                                  "int64Value": "1"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "componentConfig": [],
+  "preset": "default",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 40,
+      "width": 300,
+      "top": 0,
+      "left": 0,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "datasetPickerProperty": {
+        "displayEditorData": true,
+        "connectorType": 1,
+        "isEnhanced": true,
+        "fontSize": 14,
+        "lineHeight": 16,
+        "paddingTop": 8,
+        "paddingLeft": 24,
+        "paddingRight": 24,
+        "centerVertical": true
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

@@ -1,0 +1,91 @@
+{
+ "componentId": "cd-template",
+ "type": "dimension-filter",
+ "behavior": {
+  "mapValue": {
+   "entry": []
+  }
+ },
+ "componentConfig": [],
+ "preset": "default",
+ "attributeConfig": {
+  "componentAttribute": {
+   "datasourceConfigVersion": 2,
+   "displayConfigVersion": 0,
+   "height": 50,
+   "width": 260,
+   "top": 400,
+   "left": 20,
+   "flipHorizontal": false,
+   "flipVertical": false
+  }
+ },
+ "propertyConfig": {
+  "componentProperty": {
+   "dimensions": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "metrics": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "row": 5001,
+   "sort": [],
+   "breakdownConfig": [],
+   "filters": [],
+   "inheritFilters": true,
+   "dsRequiredFilters": [],
+   "dimensionFilterProperty": {
+    "singleSelect": false,
+    "showSearch": true,
+    "showMetricsValue": true,
+    "compactNumbers": true,
+    "allowSelectAll": true,
+    "defaultConditionType": 1,
+    "isAutoInputBoxWidth": true,
+    "inputBoxWidth": 80,
+    "sliderMode": 0,
+    "sliderShowTextBoxes": true,
+    "sliderEnableSnapping": false,
+    "sliderShowTicks": false,
+    "sliderTickSize": 1,
+    "defaultControlValueInputType": "static",
+    "labelFontSize": 14,
+    "itemFontSize": 12,
+    "dividerColor": {
+     "color": "transparent",
+     "opacity": 1
+    },
+    "backgroundAndBorderProperty": {
+     "border": {
+      "color": "transparent",
+      "opacity": 0,
+      "size": 0,
+      "style": 0,
+      "radius": 10
+     }
+    },
+    "paddingTop": 8,
+    "paddingLeft": 24,
+    "paddingRight": 24,
+    "centerVertical": true,
+    "lineHeight": 16
+   },
+   "componentPropertyMigrationStatus": 2
+  }
+ },
+ "conceptDefs": []
+}

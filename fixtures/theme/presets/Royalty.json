@@ -1,0 +1,354 @@
+{
+  "version": 1,
+  "themeFillColor": {
+    "color": "#ffffff",
+    "themeRef": {
+      "index": 0
+    }
+  },
+  "themeFontColor": {
+    "color": "#212121",
+    "themeRef": {
+      "index": 1
+    }
+  },
+  "themeFontFamily": "Roboto",
+  "themeAccentFillColor": {
+    "color": "#eeeeee",
+    "themeRef": {
+      "index": 2
+    }
+  },
+  "themeAccentFontColor": {
+    "color": "#212121",
+    "themeRef": {
+      "index": 3
+    }
+  },
+  "themeAccentFontFamily": "Roboto",
+  "themeShapeFillColor": {
+    "color": "#eeeeee"
+  },
+  "themeShapeBorderColor": {
+    "color": "#595959"
+  },
+  "themeShapeBorderWeight": 1,
+  "themeShapeBorderStyle": "solid",
+  "themeIncreaseColor": {
+    "color": "#388e3c"
+  },
+  "themeDecreaseColor": {
+    "color": "#f44336"
+  },
+  "themeGridColor": {
+    "color": "#e0e0e0"
+  },
+  "themeBackground": {
+    "color": "transparent"
+  },
+  "themeOpacity": 1,
+  "themeBorderRadius": 0,
+  "themeBorderColor": {
+    "color": "transparent"
+  },
+  "themeBorderWeight": 0,
+  "themeBorderStyle": "solid",
+  "themeComponentHeaderPosition": 2,
+  "themeComponentHeaderColor": {
+    "color": "#616161"
+  },
+  "themeTextboxHyperLinkFillColor": {
+    "color": "#1a73e8"
+  },
+  "themeTextboxVisitedHyperLinkFillColor": {
+    "color": "#8430ce"
+  },
+  "themeNavigationBackground": {
+    "color": "#ffffff"
+  },
+  "themeNavigationFontColor": {
+    "color": "#212121"
+  },
+  "themeNavigationSelectionFontColor": {
+    "color": "#4e34ae"
+  },
+  "themeSeriesColor": [
+    {
+      "color": "#4e34ae",
+      "seriesRef": {
+        "index": 0
+      },
+      "themeRef": {
+        "index": 4
+      }
+    },
+    {
+      "color": "#7552d2",
+      "seriesRef": {
+        "index": 1
+      },
+      "themeRef": {
+        "index": 5
+      }
+    },
+    {
+      "color": "#9d75e9",
+      "seriesRef": {
+        "index": 2
+      },
+      "themeRef": {
+        "index": 6
+      }
+    },
+    {
+      "color": "#c69af7",
+      "seriesRef": {
+        "index": 3
+      },
+      "themeRef": {
+        "index": 7
+      }
+    },
+    {
+      "color": "#e5c5fc",
+      "seriesRef": {
+        "index": 4
+      },
+      "themeRef": {
+        "index": 8
+      }
+    },
+    {
+      "color": "#635d8f",
+      "seriesRef": {
+        "index": 5
+      },
+      "themeRef": {
+        "index": 9
+      }
+    },
+    {
+      "color": "#856d78",
+      "seriesRef": {
+        "index": 6
+      }
+    },
+    {
+      "color": "#a47c63",
+      "seriesRef": {
+        "index": 7
+      }
+    },
+    {
+      "color": "#c38a4e",
+      "seriesRef": {
+        "index": 8
+      }
+    },
+    {
+      "color": "#e1993a",
+      "seriesRef": {
+        "index": 9
+      }
+    },
+    {
+      "color": "#530078",
+      "seriesRef": {
+        "index": 10
+      }
+    },
+    {
+      "color": "#802ba4",
+      "seriesRef": {
+        "index": 11
+      }
+    },
+    {
+      "color": "#ac53cd",
+      "seriesRef": {
+        "index": 12
+      }
+    },
+    {
+      "color": "#d97fe8",
+      "seriesRef": {
+        "index": 13
+      }
+    },
+    {
+      "color": "#fbb0fe",
+      "seriesRef": {
+        "index": 14
+      }
+    },
+    {
+      "color": "#c7d32e",
+      "seriesRef": {
+        "index": 15
+      }
+    },
+    {
+      "color": "#99a914",
+      "seriesRef": {
+        "index": 16
+      }
+    },
+    {
+      "color": "#6e8101",
+      "seriesRef": {
+        "index": 17
+      }
+    },
+    {
+      "color": "#4b5a00",
+      "seriesRef": {
+        "index": 18
+      }
+    },
+    {
+      "color": "#2a3500",
+      "seriesRef": {
+        "index": 19
+      }
+    }
+  ],
+  "themePaletteColors": [
+    {
+      "colors": [
+        "#3c2887",
+        "#5832bf",
+        "#6e33de",
+        "#9e53f1",
+        "#ba64f7",
+        "#4e4970",
+        "#69565f",
+        "#86644e",
+        "#a67038",
+        "#c9801f"
+      ]
+    },
+    {
+      "colors": [
+        "#452e9a",
+        "#653ecd",
+        "#7e49e2",
+        "#ab6bf3",
+        "#c47cf8",
+        "#585380",
+        "#77626b",
+        "#967058",
+        "#b97d3f",
+        "#de8e24"
+      ]
+    },
+    {
+      "colors": [
+        "#4e34ae",
+        "#7552d2",
+        "#8d5fe5",
+        "#b982f5",
+        "#cf95f9",
+        "#635d8f",
+        "#856d78",
+        "#a47c63",
+        "#c38a4e",
+        "#e1993a"
+      ]
+    },
+    {
+      "colors": [
+        "#573ac2",
+        "#8566d7",
+        "#9d75e9",
+        "#c69af7",
+        "#daadfb",
+        "#6f689d",
+        "#927a85",
+        "#ad8a73",
+        "#c99761",
+        "#e4a450"
+      ]
+    },
+    {
+      "colors": [
+        "#664cc9",
+        "#957add",
+        "#ad8bed",
+        "#d3b2f9",
+        "#e5c5fc",
+        "#7e78a7",
+        "#9d8892",
+        "#b79783",
+        "#d0a374",
+        "#e8b066"
+      ]
+    },
+    {
+      "colors": [
+        "#775fcf",
+        "#a58fe2",
+        "#bca1f0",
+        "#e1c9fb",
+        "#f0ddfd",
+        "#8c87b1",
+        "#a9969e",
+        "#c0a593",
+        "#d6b087",
+        "#ebbb7c"
+      ]
+    }
+  ],
+  "themeTextboxFillColor": {
+    "color": "transparent"
+  },
+  "themeTextboxHideBorder": true,
+  "themeContrastCorrection": 2,
+  "themeHeatmapMaxColor": {
+    "color": "#db3737"
+  },
+  "themeHeatmapMidColor": {
+    "color": "#f5b503"
+  },
+  "themeHeatmapMinColor": {
+    "color": "#0e9d58"
+  },
+  "themeBarWidth": 100,
+  "themeGroupBarWidth": 80,
+  "themeBarBorderColor": {
+    "color": "transparent"
+  },
+  "themeLineWeight": 2,
+  "themeBarCornerRadius": 0,
+  "themeSankeyLinkColorMode": 0,
+  "themeTableEvenRowColor": {
+    "color": "transparent",
+    "opacity": 0
+  },
+  "themePieHole": 0,
+  "themeSliceCornerRadius": 0,
+  "themeSlicePadding": 0,
+  "themeAxisLineColor": {
+    "color": "#000000"
+  },
+  "themeComboShowAxisTitles": false,
+  "themeBubbleOpacity": 1,
+  "themeAreaOpacity": 0.3,
+  "themeScorecardPadding": "24px",
+  "themeDefaultSingleSeriesGradient": false,
+  "themeShowHGridLine": true,
+  "themeTreemapCornerRadius": 0,
+  "themeTreemapInnerPadding": 1,
+  "themeTreemapHeaderPadding": 0,
+  "themeTreemapInterpolationMethod": "rgb",
+  "themeTimelineAlternatingColorBlendFactor": 0.1,
+  "themeTimelineBorderColor": {
+    "color": "#9a9a9a"
+  },
+  "themeTimelineBottomAxisBorderColor": {
+    "color": "transparent"
+  },
+  "themeTimelineUseBorderColorForHorizontalGrid": true,
+  "themeTimelineUseGridColorForLeftAxis": true,
+  "themeTimelineBarCornerRadius": 0,
+  "sourceTheme": "t-royalty"
+}

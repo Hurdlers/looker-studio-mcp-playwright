@@ -1,0 +1,83 @@
+{
+ "componentId": "cd-template",
+ "type": "pivot-table",
+ "behavior": {
+  "mapValue": {
+   "entry": []
+  }
+ },
+ "componentConfig": [],
+ "preset": "default",
+ "attributeConfig": {
+  "componentAttribute": {
+   "datasourceConfigVersion": 2,
+   "displayConfigVersion": 0,
+   "height": 240,
+   "width": 290,
+   "top": 1200,
+   "left": 950,
+   "flipHorizontal": false,
+   "flipVertical": false
+  }
+ },
+ "propertyConfig": {
+  "componentProperty": {
+   "dimensions": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "metrics": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "sort": [],
+   "breakdownConfig": [],
+   "filters": [],
+   "inheritFilters": true,
+   "dsRequiredFilters": [],
+   "pivotTableProperty": {
+    "pivotRollupConfig": {
+     "enableRowRollup": false,
+     "enableColRollup": false
+    },
+    "pivotDisplayConfig": {
+     "row": [],
+     "col": [],
+     "hierarchy": []
+    },
+    "showRowGrandRollup": true,
+    "showColGrandRollup": true,
+    "headerColor": {
+     "color": "#000000",
+     "opacity": 1
+    },
+    "headerFontColor": {
+     "color": "#FFFFFF",
+     "opacity": 1
+    },
+    "rowBorderColor": {
+     "color": "transparent"
+    },
+    "cellWidth": [],
+    "rowLabelWidth": [],
+    "grandTotalWidth": [],
+    "missingDataStyle": 1,
+    "tableMetricProperty": []
+   },
+   "componentPropertyMigrationStatus": 2
+  }
+ },
+ "conceptDefs": []
+}

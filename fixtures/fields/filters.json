@@ -1,0 +1,19 @@
+[
+  {
+    "key": "filterA",
+    "value": {
+      "name": "Only mobile",
+      "datasourceId": "aaaaaaaa-1111-4222-8333-000000000001",
+      "version": 3,
+      "filterDefinition": {
+        "and": {
+          "filterDefinitions": [
+            { "filterExpression": { "include": true, "filterConditionType": "EQ", "stringValues": ["mobile"] } },
+            { "filterExpression": { "include": true, "filterConditionType": "PT", "stringValues": ["organic"] } }
+          ]
+        }
+      }
+    }
+  },
+  { "key": "filterB", "value": { "name": "Other filter", "datasourceId": "aaaaaaaa-1111-4222-8333-000000000001", "version": 3, "filterDefinition": { "filterExpression": { "include": false, "filterConditionType": "NU" } } } }
+]

@@ -1,0 +1,35 @@
+{
+  "componentId": "cd-template",
+  "type": "image-component",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "default",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 92,
+      "width": 272,
+      "top": 100,
+      "left": 100,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "imageProperty": {},
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

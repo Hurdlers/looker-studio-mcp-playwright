@@ -1,0 +1,5 @@
+{
+  "note": "Endpoints the lab may call. Add one only once its request format is understood; sharing and mail are refused whatever this says.",
+  "reads": ["getReport", "getShareableList", "getBlockDatasource", "getRevisions", "getPdf", "batchedDataV2", "validateFormula", "getColumns", "getFirstPartyAccessToken", "getSchema", "getDatasourceList", "checkConsent", "getCommunityVizRegistrationInfo", "getImageDataByUrl", "checkEmbed", "getImageV2"],
+  "writes": ["createTempReport", "persistTempReport", "updatePage", "updateReport", "createPages", "deletePages", "updateReportNavigationInfo", "publishReport", "createNamedRevision", "restoreRevision", "deleteShareable", "uploadImage", "createBlockDatasource", "publishDatasource", "claimDatasourceForReport", "copyReport", "deleteClaim", "renameDatasource", "updateDataAccessControl", "grantConsent", "updateRemovedState", "convertEmbeddedDatasource"]
+}

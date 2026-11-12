@@ -1,0 +1,148 @@
+{
+  "componentId": "cd-template",
+  "type": "pivot-table",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "bar",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 260,
+      "width": 380,
+      "top": 0,
+      "left": 0,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "dimensions": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "pivotTableProperty": {
+        "pivotRollupConfig": {
+          "enableRowRollup": false,
+          "enableColRollup": false
+        },
+        "pivotDisplayConfig": {
+          "row": [],
+          "col": [],
+          "hierarchy": []
+        },
+        "fontSize": 16,
+        "headerColor": {
+          "color": "#000000",
+          "opacity": 1
+        },
+        "rowBorderColor": {
+          "color": "#666666",
+          "opacity": 1
+        },
+        "cellWidth": [],
+        "rowLabelWidth": [],
+        "grandTotalWidth": [],
+        "backgroundAndBorderProperty": {
+          "border": {
+            "color": "transparent",
+            "opacity": 0,
+            "size": 1,
+            "style": 0,
+            "radius": 0
+          }
+        },
+        "tableMetricProperty": [
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          },
+          {
+            "colType": 0
+          }
+        ]
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

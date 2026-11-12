@@ -1,0 +1,140 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "elements": [
+        {
+          "id": "metricValue",
+          "label": "Metric",
+          "type": "METRIC",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "range",
+      "label": "Range",
+      "elements": [
+        {
+          "id": "min",
+          "label": "Minimal gauge value",
+          "type": "INTERVAL",
+          "defaultValue": 0
+        },
+        {
+          "id": "max",
+          "label": "Maxmium gauge value",
+          "type": "INTERVAL",
+          "defaultValue": 100
+        },
+        {
+          "id": "majorTicks",
+          "label": "Major tick label (Comma-separated)",
+          "type": "TEXTINPUT",
+          "defaultValue": ""
+        },
+        {
+          "id": "minorTicks",
+          "label": "Number of minor tick sections",
+          "type": "INTERVAL",
+          "defaultValue": 2
+        }
+      ]
+    },
+    {
+      "id": "green",
+      "label": "Green Section",
+      "elements": [
+        {
+          "id": "greenEnable",
+          "label": "Enable",
+          "type": "CHECKBOX",
+          "defaultValue": true
+        },
+        {
+          "id": "greenColor",
+          "label": "Color",
+          "type": "FILL_COLOR",
+          "defaultValue": "#109618"
+        },
+        {
+          "id": "greenFrom",
+          "label": "Range start",
+          "type": "INTERVAL",
+          "defaultValue": 70
+        },
+        {
+          "id": "greenTo",
+          "label": "Range end",
+          "type": "INTERVAL",
+          "defaultValue": 80
+        }
+      ]
+    },
+    {
+      "id": "yellow",
+      "label": "Yellow Section",
+      "elements": [
+        {
+          "id": "yellowEnable",
+          "label": "Enable",
+          "type": "CHECKBOX",
+          "defaultValue": true
+        },
+        {
+          "id": "yellowColor",
+          "label": "Color",
+          "type": "FILL_COLOR",
+          "defaultValue": "#FF9900"
+        },
+        {
+          "id": "yellowFrom",
+          "label": "Range start",
+          "type": "INTERVAL",
+          "defaultValue": 80
+        },
+        {
+          "id": "yellowTo",
+          "label": "Range end",
+          "type": "INTERVAL",
+          "defaultValue": 90
+        }
+      ]
+    },
+    {
+      "id": "red",
+      "label": "Red Section",
+      "elements": [
+        {
+          "id": "redEnable",
+          "label": "Enable",
+          "type": "CHECKBOX",
+          "defaultValue": true
+        },
+        {
+          "id": "redColor",
+          "label": "Color",
+          "type": "FILL_COLOR",
+          "defaultValue": "#DC3912"
+        },
+        {
+          "id": "redFrom",
+          "label": "Range start",
+          "type": "INTERVAL",
+          "defaultValue": 90
+        },
+        {
+          "id": "redTo",
+          "label": "Range end",
+          "type": "INTERVAL",
+          "defaultValue": 100
+        }
+      ]
+    }
+  ]
+}

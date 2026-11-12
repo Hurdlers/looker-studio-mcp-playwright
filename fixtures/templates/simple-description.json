@@ -1,0 +1,41 @@
+{
+  "componentId": "cd-template",
+  "type": "simple-description",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "default",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 1,
+      "height": 40,
+      "width": 400,
+      "top": 170,
+      "left": 50,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "descriptionProperty": {
+        "text": "<div>text</div>",
+        "fontSize": 14,
+        "paddingTop": 8,
+        "paddingLeft": 8,
+        "paddingRight": 8
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

@@ -1,0 +1,1432 @@
+{
+ "componentId": "cd-template",
+ "type": "simple-table",
+ "behavior": {
+  "mapValue": {
+   "entry": [
+    {
+     "key": "onDrillsSelected",
+     "value": {
+      "arrayValue": {
+       "value": [
+        {
+         "mapValue": {
+          "entry": [
+           {
+            "key": "action",
+            "value": {
+             "strValue": "drill-selector"
+            }
+           },
+           {
+            "key": "isControl",
+            "value": {
+             "boolValue": false
+            }
+           },
+           {
+            "key": "value",
+            "value": {
+             "mapValue": {
+              "entry": [
+               {
+                "key": "drills",
+                "value": {
+                 "arrayValue": {
+                  "value": []
+                 }
+                }
+               }
+              ]
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "onPaginate",
+     "value": {
+      "arrayValue": {
+       "value": [
+        {
+         "mapValue": {
+          "entry": [
+           {
+            "key": "action",
+            "value": {
+             "strValue": "paginate"
+            }
+           },
+           {
+            "key": "isControl",
+            "value": {
+             "boolValue": false
+            }
+           },
+           {
+            "key": "init",
+            "value": {
+             "mapValue": {
+              "entry": [
+               {
+                "key": "rowsCount",
+                "value": {
+                 "int64Value": "100"
+                }
+               }
+              ]
+             }
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    },
+    {
+     "key": "onTableFreezingColumn",
+     "value": {
+      "arrayValue": {
+       "value": [
+        {
+         "mapValue": {
+          "entry": [
+           {
+            "key": "action",
+            "value": {
+             "strValue": "table-freezing-column"
+            }
+           },
+           {
+            "key": "isControl",
+            "value": {
+             "boolValue": false
+            }
+           }
+          ]
+         }
+        }
+       ]
+      }
+     }
+    }
+   ]
+  }
+ },
+ "componentConfig": [],
+ "preset": "default",
+ "attributeConfig": {
+  "componentAttribute": {
+   "datasourceConfigVersion": 2,
+   "displayConfigVersion": 0,
+   "height": 240,
+   "width": 290,
+   "top": 40,
+   "left": 20,
+   "flipHorizontal": false,
+   "flipVertical": false
+  }
+ },
+ "propertyConfig": {
+  "componentProperty": {
+   "dimensions": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "metrics": {
+    "labeledConcepts": [
+     {
+      "key": "primary",
+      "value": {
+       "conceptNames": []
+      }
+     }
+    ]
+   },
+   "row": 100,
+   "sort": [],
+   "breakdownConfig": [],
+   "filters": [],
+   "inheritFilters": true,
+   "dsRequiredFilters": [],
+   "tableProperty": {
+    "headerColor": {
+     "color": "#000000",
+     "opacity": 1
+    },
+    "rowBorderColor": {
+     "color": "transparent"
+    },
+    "missingDataStyle": 1,
+    "compactPagination": false,
+    "headerFontColor": {
+     "color": "#FFFFFF",
+     "opacity": 1
+    },
+    "showRowNum": false,
+    "footerBorderColor": {
+     "color": "#eee",
+     "opacity": 1
+    },
+    "footerBorderWeight": 0,
+    "tableDimensionProperty": [
+     {
+      "dimAlignment": 1
+     },
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {},
+     {}
+    ],
+    "tableMetricProperty": [
+     {
+      "colShowNumber": true,
+      "colColor": {
+       "color": "#6a380e",
+       "opacity": 1
+      },
+      "colAlignment": 2,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": true,
+      "colColor": {
+       "color": "#6a380e",
+       "opacity": 1
+      },
+      "colAlignment": 2,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": true,
+      "colColor": {
+       "color": "#0049ff",
+       "opacity": 1
+      },
+      "colAlignment": 2,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "colColor": {
+       "color": "#0049ff",
+       "opacity": 1
+      },
+      "colAlignment": 2,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": true,
+      "colColor": {
+       "color": "#E64A19",
+       "opacity": 1
+      },
+      "colAlignment": 2,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": true,
+      "colColor": {
+       "color": "#E64A19",
+       "opacity": 1
+      },
+      "colAlignment": 2,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": true,
+      "colAlignment": 2,
+      "compactNumbers": true,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     },
+     {
+      "colShowNumber": false,
+      "compactNumbers": false,
+      "colTarget": {
+       "enabled": false
+      },
+      "colAxis": {
+       "enabled": false,
+       "compactNumbers": true
+      }
+     }
+    ],
+    "rowsHeight": [
+     31,
+     31,
+     31
+    ]
+   },
+   "componentPropertyMigrationStatus": 2
+  }
+ },
+ "conceptDefs": []
+}

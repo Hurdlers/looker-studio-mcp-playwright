@@ -1,0 +1,78 @@
+{
+  "componentId": "cd-template",
+  "type": "button",
+  "behavior": {
+    "mapValue": {
+      "entry": [
+        {
+          "key": "onSelect",
+          "value": {
+            "arrayValue": {
+              "value": [
+                {
+                  "mapValue": {
+                    "entry": [
+                      {
+                        "key": "action",
+                        "value": {
+                          "strValue": "lego-dimension-filter"
+                        }
+                      },
+                      {
+                        "key": "isControl",
+                        "value": {
+                          "boolValue": true
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  "componentConfig": [],
+  "preset": "button-filter",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 40,
+      "width": 200,
+      "top": 0,
+      "left": 0,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "dimensions": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "row": 5001,
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "buttonProperty": {
+        "text": "New Button",
+        "actionType": 3,
+        "defaultControlValue": false
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

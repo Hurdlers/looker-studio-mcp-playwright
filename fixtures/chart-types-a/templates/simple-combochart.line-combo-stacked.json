@@ -1,0 +1,158 @@
+{
+  "componentId": "cd-template",
+  "type": "simple-combochart",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "line-combo-stacked",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 260,
+      "width": 380,
+      "top": 0,
+      "left": 0,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "dimensions": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          },
+          {
+            "key": "breakdown",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "labeledConcepts": [
+          {
+            "key": "primary",
+            "value": {
+              "conceptNames": []
+            }
+          }
+        ]
+      },
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "comboChartProperty": {
+        "showStack": true,
+        "overrideAxisAuto": true,
+        "seriesProperty": [
+          {
+            "seriesColor": {
+              "color": "#000000",
+              "opacity": 1
+            },
+            "seriesShowPoints": true,
+            "seriesShowDataLabel": true,
+            "seriesAxisIndex": 0
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          },
+          {
+            "seriesShowPoints": false,
+            "seriesShowDataLabel": false
+          }
+        ],
+        "referenceLineProperty": [],
+        "axisAndGridProperty": {
+          "gridColor": {
+            "color": "transparent"
+          }
+        },
+        "referenceBandProperty": []
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

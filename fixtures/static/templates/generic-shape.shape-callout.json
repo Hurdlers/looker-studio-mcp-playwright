@@ -1,0 +1,51 @@
+{
+  "componentId": "cd-template",
+  "type": "generic-shape",
+  "behavior": {
+    "mapValue": {
+      "entry": []
+    }
+  },
+  "componentConfig": [],
+  "preset": "shape-callout",
+  "attributeConfig": {
+    "componentAttribute": {
+      "datasourceConfigVersion": 2,
+      "displayConfigVersion": 0,
+      "height": 200,
+      "width": 200,
+      "top": 0,
+      "left": 0,
+      "flipHorizontal": false,
+      "flipVertical": false
+    }
+  },
+  "propertyConfig": {
+    "componentProperty": {
+      "sort": [],
+      "breakdownConfig": [],
+      "filters": [],
+      "inheritFilters": true,
+      "dsRequiredFilters": [],
+      "genericShapeProperty": {
+        "shapeType": 13,
+        "backgroundAndBorderProperty": {
+          "background": {
+            "color": "#000000",
+            "opacity": 1
+          },
+          "border": {
+            "color": "transparent",
+            "opacity": 1,
+            "size": 0,
+            "style": 0,
+            "radius": 0
+          }
+        },
+        "calloutTailDirection": 5
+      },
+      "componentPropertyMigrationStatus": 2
+    }
+  },
+  "conceptDefs": []
+}

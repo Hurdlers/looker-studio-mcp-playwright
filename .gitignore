@@ -1,0 +1,7 @@
+node_modules/
+build/
+*.log
+.DS_Store
+
+# Generated: npm run gen
+src/features/registry.generated.ts
